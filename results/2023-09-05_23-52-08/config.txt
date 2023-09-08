@@ -1,0 +1,19 @@
+2023-09-05 23:52:08.033868
+
+results_dir:  ./results
+save:  
+data_path:  ./modelnet40_normal_resampled
+batch_size:  16
+epoch:  200
+warm_up:  True
+learning_rate:  0.001
+momentum:  0.9
+gpu:  1
+num_point:  1024
+optimizer:  adam
+weight_decay:  0.0001
+lr_decay_step:  
+start_epoch:  -1
+lr_type:  step
+type:  torch.cuda.FloatTensor
+normal:  True
