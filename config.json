@@ -1,0 +1,19 @@
+{
+  "results_dir": "./results",
+  "save": "",
+  "data_path": "./modelnet40_normal_resampled",
+  "batch_size": 16,
+  "epoch": 200,
+  "warm_up": true,
+  "learning_rate": 1e-3,
+  "momentum": 0.9,
+  "gpu": 1,
+  "num_point": 1024,
+  "optimizer": "adam",
+  "weight_decay": 1e-4,
+  "lr_decay_step": null,
+  "start_epoch": -1,
+  "lr_type": "step",
+  "type": "torch.cuda.FloatTensor",
+  "normal": true
+}
